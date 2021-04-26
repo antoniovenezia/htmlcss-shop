@@ -9,8 +9,8 @@
     width: calc(100%/3);
     height: 100%;
     border: 1px solid black;
-    /* margin: 15px; */
-    position: relative;
+    padding: 10px;    
+    /* position: relative; */
 }
 
 [class^="img-"]{
@@ -24,9 +24,10 @@
     border: 1px solid black;
     width: 100%;
     height: 20%;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute; */
+    /* bottom: 0; */
     background-color: cadetblue;
+    padding: 10px;    
 }
 
 .clearfix::after{
