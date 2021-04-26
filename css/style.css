@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;    
+}
+
+/* Utility classes */
+.ads{
+    width: calc(100%/3);
+    height: 100%;
+    border: 1px solid black;
+    /* margin: 15px; */
+    position: relative;
+}
+
+[class^="img-"]{
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+    background-color: blueviolet;
+}
+
+.desc{
+    border: 1px solid black;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    background-color: cadetblue;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* End utility classes */
+
+
+
+
+/* MAIN */
+/* #main{
+    width: 1200px;
+    height: 1800px;
+    margin: 0 auto;
+} */
+
+/* CONTAINER */
+.container{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+
+
+/* FLOAT */
+.fl{
+    float: left;
+}
+
+.float-mid{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+/* IMMAGINI */
+
